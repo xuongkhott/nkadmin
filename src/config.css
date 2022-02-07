@@ -1,0 +1,17 @@
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.flexcl{
+    display: flex;
+    flex-direction: column;
+}
+.juscen{
+    justify-content: center;
+}
+.alcen{
+    align-items: center;
+}
+.txcen{
+    text-align: center;
+}

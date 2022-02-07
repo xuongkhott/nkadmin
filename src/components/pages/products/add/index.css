@@ -1,0 +1,41 @@
+.addprod{
+    padding: 1em;
+}
+.row-add{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.label-add{
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+.select-type{
+    padding: 0.5em;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.div-name-prod{
+    margin-top: 1em;
+}
+.label-name{
+    padding-bottom: 0.3em;
+}
+.input-form-add{
+    font-size: 1.3em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+.input-form-add::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+.input-name{
+    min-width: 30vw;
+}
+.div-price-prod{
+    margin-left: 1em;
+}
+.input-size{
+    width: 10vw;
+}
