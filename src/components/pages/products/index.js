@@ -12,7 +12,6 @@ const Products = ()=>{
 
     useEffect(()=>{
         setPage(params.tprod);
-        console.log(params.tprod)
     },[params])
 
     switch (page){

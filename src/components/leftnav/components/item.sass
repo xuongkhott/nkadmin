@@ -1,0 +1,28 @@
+.itemdiv
+    display: flex
+    flex-direction: column
+    padding-left: 1em
+
+    .itemlabel
+        display: flex
+        position: relative
+        justify-content: space-between
+        align-items: center
+        font-size: 1em
+        opacity: 0.9
+        margin: none
+        padding: 1em
+        transition: transform .2s
+        cursor: pointer
+        
+        &:hover
+            background-color: rgb(212,212,212)
+            span
+                color: #000
+        .itemspan
+            font-size: 15px
+            color: #fff
+
+        .itemlink
+            text-decoration: none
+            font-family: "Helvetica"

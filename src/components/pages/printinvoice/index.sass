@@ -1,0 +1,200 @@
+@import '../../../global.sass'
+.print-box
+    background-color: $main-background-color
+    padding: 20px
+    border-radius: 5px
+    margin-top: 50px
+
+    .info-customer-input
+        width: 100%
+        display: flex
+
+
+        .detailbox
+            display: flex
+            // justify-content: center
+            align-items: center
+            width: 100%
+            flex-direction: row
+            padding: 10px
+
+            .label-customer
+                font-size: 20px
+                font-family: 'Times New Roman', Times, serif
+                height: 100%
+
+
+            input
+                background: none
+                color: #fff
+                outline: none
+                border: none
+                padding: 5px
+                border-bottom: 1px solid #fff
+                font-size: 20px
+                font-family: 'Times New Roman', Times, serif
+
+.payment-method-input-box
+    background-color: $main-background-color
+    margin-top: 20px
+    border-radius: 5px
+    padding: 20px
+    .payment-choose, .payment-info
+        padding: 10px
+        display: flex
+        justify-content: center
+        align-items: center
+        .label-payment
+            font-size: 20px
+            font-family: 'Times New Roman', Times, serif
+            font-weight: bold
+
+        .select-box
+            display: flex
+            justify-content: center
+            align-items: center
+            height: 100%
+            width: 100%
+            text-align: center
+
+            select
+                border: none
+                background: none
+                color: #fff
+                font-size: 20px
+                font-family: 'Times New Roman', Times, serif
+                background-color: $main-background-color
+                margin: 0 auto
+        input
+            background: none
+            outline: none
+            border: none
+            border-bottom: 1px solid #fff
+            font-family: 'Times New Roman', Times, serif
+            font-size: 20px
+            color: #fff
+            padding: 5px
+
+.details-product-invoice
+    width: 100%
+    display: flex
+
+    .plus-button
+        padding: 10px
+        border-radius: 5px
+        background-color: #205243
+        color: #fff
+        display: flex
+        font-size: 20px
+        font-family: 'Times New Roman', Times, serif
+        justify-content: center
+        align-items: center
+        width: 100px
+        margin: 20px
+        font-weight: bold
+        border: 1px solid #205243
+        &:hover
+            cursor: pointer
+            background-color: $main-color
+            color: #205243
+
+    .table-product
+        width: 100%
+        .th-table
+            background-color: #205243
+            font-size: 25px
+            font-family: 'Times New Roman', Times, serif
+            font-weight: bold
+            padding: 10px
+
+            .th-add
+                display: flex
+                justify-content: center
+                align-items: center
+                
+        .td-table
+            background-color: $main-background-color
+            font-size: 20px
+            font-family: 'Times New Roman', Times, serif
+            padding: 10px
+            border-bottom: 2px solid #fff
+
+            .td-add
+                display: flex
+                justify-content: center
+                align-items: center
+
+            .th-add-delete
+                text-align: center
+
+.modal-add
+    width: 35%
+    background-color: #fff
+    margin: 0 auto
+    margin-top: 10%
+    border-radius: 8px
+    display: flex
+    flex-direction: column
+    overflow: hidden
+
+    .label-modal-add
+        background-color: #205243
+        font-family: 'Times New Roman', Times, serif
+        font-size: 25px
+        padding: 10px
+        text-align: center
+        color: #fff
+        font-weight: bold
+    .details-modal-add
+        background-color: #fff
+        height: 300px
+        padding: 20px
+
+        .details-input-modal
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-top: 10px
+            margin-bottom: 30px
+
+            .label-detail-modal-input
+                font-size: 20px
+                font-family: 'Times New Roman', Times, serif
+                color: #205243
+                font-weight: bold
+                display: flex
+                align-items: center
+                height: 100%
+
+            .box-detail-modal-input
+                width: 100%
+
+                input
+                    width: 100%
+                    background: none
+                    border: none
+                    outline: none
+                    padding: 5px
+                    font-size: 20px
+                    font-family: 'Times New Roman', Times, serif
+                    color: #205243
+                    border-bottom: 1px solid #000
+
+        .button-box-modal-add
+            display: flex
+            justify-content: center
+            align-items: center
+
+            .button-modal-add
+                margin: 20px
+                padding: 10px
+                font-size: 25px
+                font-weight: bold
+                border-radius: 5px
+                border: 1px solid
+                display: flex
+                justify-content: center
+                align-items: center
+                
+
+                

@@ -1,0 +1,58 @@
+.input-add{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(31,32,41);
+    border-radius: 5px;
+    width: 90%;
+}
+.input-add:focus{
+    border: none;
+    outline: none;
+}
+.input-add:-ms-input-placeholder  {
+    color: #c4c3ca;
+    opacity: 0.7;
+    -webkit-transition: all 200ms linear;
+      transition: all 200ms linear;
+  }
+.input-add::-moz-placeholder  {
+color: #c4c3ca;
+opacity: 0.7;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add:-moz-placeholder  {
+color: #c4c3ca;
+opacity: 0.7;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add::-webkit-input-placeholder  {
+color: #c4c3ca;
+opacity: 0.7;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add:focus:-ms-input-placeholder  {
+opacity: 0;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add:focus::-moz-placeholder  {
+opacity: 0;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add:focus:-moz-placeholder  {
+opacity: 0;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.input-add:focus::-webkit-input-placeholder  {
+opacity: 0;
+-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}

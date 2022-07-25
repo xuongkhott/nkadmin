@@ -14,6 +14,10 @@ export const SidebarData = [
         ]
     },
     {
+        label: 'Hóa đơn',
+        url: '/invoice',
+    },
+    {
         label: 'Sản phẩm',
         url: '/products',
         subMenu: [
@@ -28,8 +32,26 @@ export const SidebarData = [
         ]
     },
     {
+        label: 'Bài viết',
+        url: '/news',
+        subMenu: [
+            {
+                label: 'Danh sách',
+                url: '/news'
+            },
+            {
+                label: 'Thêm mới',
+                url: '/news/add'
+            }
+        ]
+    },
+    {
         label: 'Đơn hàng',
         url: '/oder',
+    },
+    {
+        label: 'Khách hàng',
+        url: '/customers',
     },
     {
         label: 'Hệ thống',

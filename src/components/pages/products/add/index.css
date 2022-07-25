@@ -2,40 +2,110 @@
     padding: 1em;
 }
 .row-add{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.label-add{
-    font-size: 1.5em;
+.details-box{
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+.add-prod-left-panel{
+    border: 1px solid rgb(255,255,255,0.3);
+    border-radius: 10px;
+    background-color: rgb(41,42,54);
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.add-prod-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.add-prod-type{
+    width: 50%;
+}
+.add-prod-price{
+    width: 50%;
+}
+.input-prod-info{
+    resize: none;
+}
+.add-prod-img-label{
+    font-size: 20px;
+}
+.add-prod-img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.img-main-box{
     justify-content: center;
     align-items: center;
+    height: 100%;
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
-.select-type{
-    padding: 0.5em;
-    font-size: 1.3em;
-    border-radius: 5px;
+.img-main-label{
+    font-size: 20px;
+    border: 1px solid rgb(255,255,255,0.3);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
-.div-name-prod{
-    margin-top: 1em;
+.img-main-label:hover{
+    cursor: pointer;
 }
-.label-name{
-    padding-bottom: 0.3em;
+
+.border-main-img{
+    border: 1px solid rgb(255,255,255,0.3);
+    width: 80%;
+    height: 80%;
+    min-height: 130px;
 }
-.input-form-add{
-    font-size: 1.3em;
-    padding: 0.5em;
-    border-radius: 5px;
+
+.img-main{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.input-form-add::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-.input-name{
-    min-width: 30vw;
+.add-prod-img-item{
+
 }
-.div-price-prod{
-    margin-left: 1em;
+.btn-imgs{
+    border: 1px solid rgb(255,255,255,0.3);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
 }
-.input-size{
-    width: 10vw;
+.btn-imgs:hover{cursor: pointer;}
+
+.action-box{
+    border: 1px solid rgb(255,255,255,0.3);
+    border-radius: 10px;
+    background-color: rgb(41,42,54);
+    height: 100%;
+    padding: 20px;
+}
+.pp-input{
+    padding-bottom: 20px;
+}
+.bottom-right-box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.btn-add{
+    padding: 15px;
+    font-size: 22px;
+    background-color: rgb(20,36,12);
+    text-align: center;
+    border-radius: 7px;
+}
+.btn-add:hover{
+    cursor: pointer;
+    background-color: rgb(36,64,22);
 }

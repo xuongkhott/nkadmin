@@ -1,0 +1,225 @@
+.hidden-page{
+    width: 210mm;
+    height: 297mm;
+    display: none;
+}
+.print-page{
+    width: 210mm;
+    /* height: 297mm; */
+    padding-top: 5mm;
+}
+.invoice-header{
+    height: 50mm;
+    width: 100%;
+    background-color: #205243;
+}
+.grheader{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gritem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.line-logo{
+    height: 2px;
+    width: 60%;
+    background: -webkit-linear-gradient(346deg, #ba8024 0%, #f8f188 50%, #ba8024 100%);
+}
+.logo-header{
+    width: auto;
+    height: 30mm;
+}
+.invoice-label{
+    height: 65mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer-info{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #205243;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1cm;
+    justify-content: center;
+}
+.invoice-to{
+    padding-top: 5mm;
+    font-size: 5mm;
+    font-weight: bold;
+}
+.name-customer{
+    font-size: 7mm;
+    line-height: 1.5cm;
+    font-weight: bold;
+}
+.details-customer{
+    font-size: 6mm;
+    line-height: 8mm;
+    margin-left: 5mm;
+}
+.invoice-info{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    color: #205243;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 1cm;
+}
+.invoice{
+    font-size: 1cm;
+    line-height: 2cm;
+    font-weight: bold;
+}
+.no-invoice{
+    font-size: 5mm;
+    line-height: 6mm;
+}
+.day-invoice{
+    font-size: 5mm;
+    line-height: 6mm;
+}
+.invoice-vn{
+    font-size: 0.7cm;
+    line-height: 1cm;
+    font-weight: bold;
+}
+.td-invoice{
+    height: 1.5cm;
+    background-color: #205243;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.td-text{
+    color: #fff;
+    font-size: 5mm;
+    font-weight: bold;
+    line-height: 6mm;
+    height: 6mm;
+    padding: none;
+}
+.td-vn{
+    color: #fff;
+    font-size: 4mm;
+    font-style: italic;
+    line-height: 5mm;
+    height: 5mm;
+    padding: none;
+}
+.th-invoice{
+    height: 2cm;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 0.5mm solid #205243;
+}
+.th-text{
+    font-size: 0.5cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+.th-des{
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+.total-invoice{
+    height: 1cm;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 0.5mm solid #205243;
+}
+.total-label{
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-size: 0.5cm;
+    font-weight: bold;
+    color: #205243;
+}
+.label-total-vn{
+    font-style: italic;
+}
+.total-num{
+    background-color: #205243;
+    padding: none;
+    height: 100%;
+    line-height: 1cm;
+    font-size: 0.5cm;
+    font-weight: bold;
+    color: #fff;
+}
+.vat-invoice{
+    height: 1cm;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 0.5mm solid #205243;
+}
+.total-vat-num{
+    color: #205243;
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+
+.payment-method{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.5cm;
+    font-weight: bold;
+    height: 1cm;
+    margin-top: 0.5cm;
+}
+.type-method{
+    color: #205243;
+}
+.payment-method-info{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.5cm;
+    font-weight: bold;
+    height: 1cm;
+}
+.type-payment{
+    font-weight: normal;
+    color: #205243;
+    text-align: center;
+}
+.sig-invoice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+    color: #205243;
+}
+.label-sig-customer-vn{
+    font-style: italic;
+}

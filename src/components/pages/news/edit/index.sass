@@ -1,0 +1,131 @@
+@import '../../../../global.sass'
+.addnews
+    padding-top: 50px
+
+    .tool-bar
+        padding: 10px
+        border-radius: 5px
+        margin-bottom: 10px
+
+        .bar1
+            display: flex
+            flex-direction: column
+            justify-items: center
+            padding-left: 50px
+            padding-right: 50px
+
+            .link-title
+                display: flex
+                flex-direction: column
+                align-items: center
+                margin-bottom: 50px
+
+                .title-content-label
+                    width: 100%
+                    font-size: 20px
+                    color: $second-color
+                    font-weight: bold
+                    margin-bottom: 20px
+
+                .input-title-content
+                    width: 100%
+                    font-size: 15px
+                    font-weight: bold
+                    padding: 10px
+                    background-color: none
+                    color: $second-color
+                    border: none
+                    border-bottom: 1px solid $second-color
+                    outline: none
+
+            .categories-news
+                display: flex
+                flex-direction: row
+                align-items: center
+                margin-bottom: 50px
+
+                .categories-news-label
+                    width: 150px
+                    font-size: 20px
+                    font-weight: bold
+                    color: $second-color
+                    margin-bottom: 20px
+
+                .select-categories
+                    font-size: 15px
+                    padding: 10px
+                    border: none
+                    border-bottom: 2px solid $second-color
+                    outline: none
+                    width: 80%
+                    color: #000
+                    max-width: 400px
+            
+        .bar2
+            display: flex
+            flex-direction: row
+            height: 100%
+
+            .image-news
+                height: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+
+                .img-news
+                    height: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    
+                    .img-news-label
+                        color: #fff
+                        padding: 10px
+                        border: 1px solid #314382
+                        border-radius: 5px
+                        background-color: #314382
+                        &:hover
+                            cursor: pointer
+
+                .news-image
+                    padding: 10px
+                    border: 1px solid #314382
+                    height: 100px
+                    width: 250px
+
+                    .border-news-img
+
+                        .review-img-news
+                            max-height: 100px
+                            max-width: 250px
+                            object-fit: cover
+        .success
+                display: flex
+                width: 20%
+                align-items: center
+                // justify-content: end
+
+                .button-success
+                    background-color: $main-color
+                    color: #000
+                    font-size: 20px
+                    font-family: 'Times New Roman', Times, serif
+                    padding: 10px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+
+                    &:hover
+                        cursor: pointer
+                        background-color: $main-background-color
+                        color: $main-color
+
+    .editor-box
+        background-color: #e3e3e3
+        margin-top: 20px
+
+.show-content
+    height: 1000px
+
+.sun-editor-editable
+    background-color: #1c1b19 !important

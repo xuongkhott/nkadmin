@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './config.css';
+import './global.sass'
 
 import {Container, Grid, Hidden} from '@mui/material';
 
@@ -8,11 +9,14 @@ import {Container, Grid, Hidden} from '@mui/material';
 import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 
 // Components
-import Topbar from './components/topbar/index';
 import Leftnav from './components/leftnav/index';
 import Home from './components/pages/home';
 import Products from './components/pages/products/index';
-
+import AllNews from './components/pages/news/all';
+import AddNews from './components/pages/news/add';
+import EditNews from './components/pages/news/edit';
+import Customers from './components/pages/customers/index';
+import PrintInvoice from './components/pages/printinvoice/index';
 
 
 const App = ()=>{
@@ -20,7 +24,6 @@ const App = ()=>{
     
     <Container maxWidth="fixed" disableGutters={true} className="app">
       <Router>
-      <div className="topbarapp"><Topbar/></div>
       <Grid container spacing={0} className="main">
         <Grid item lg={2} xl={2}>
           <Leftnav/>
@@ -28,9 +31,13 @@ const App = ()=>{
         <Grid item lg={10} xl={10}>
               <Routes>
                 <Route index path="/" element={<Home/>}/>
-                <Route index path="/products" element={<Products/>}/>
-                <Route index path="/products/:tprod" element={<Products/>}/>
-                
+                <Route path="/products" element={<Products/>}/>
+                <Route path="/customers" element={<Customers/>}/>
+                <Route path="/products/:tprod" element={<Products/>}/>
+                <Route path="/news" element={<AllNews/>}/>
+                <Route path="/news/add" element={<AddNews/>}/>
+                <Route path="/news/:pathnew" element={<EditNews/>}/>
+                <Route path="/invoice" element={<PrintInvoice/>}/>
                 <Route path="*" element={<Home/>}/>
             </Routes>
         </Grid>
